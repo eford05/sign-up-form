@@ -1,0 +1,28 @@
+/* Simple Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Color Palette */
+:root {
+  --pale-pink: #f2f3f5;
+  --light-pink: #ffdcd4;
+  --med-pink: #fbaca4;
+  --dark-pink: #d5756d;
+  --summer-sky: #3e7eac;
+  --charcoal: #373a40;
+}
+
+/* Most text */
+body,
+input,
+button {
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Della Respira", serif;
+}
