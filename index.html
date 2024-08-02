@@ -30,99 +30,98 @@
       <article>
         <figure>
           <img
-          src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="Pink, yellow, and purple flower bouquet held in the shape of a heart"
-        />
-        <figcaption>
-          Photo by <cite>Shamblen Studios on Unsplash</cite>
-        </figcaption>
+            src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Pink, yellow, and purple flower bouquet held in the shape of a heart"
+          />
+          <figcaption>
+            Photo by <cite>Shamblen Studios on Unsplash</cite>
+          </figcaption>
         </figure>
       </article>
       <form action="">
-        <fieldset>  
+        <fieldset>
           <legend>Sign Up!</legend>
           <div class="input-wrapper">
-          <label for="first-name">FIRST NAME</label>
-          <input
-            id="first-name"
-            type="text"
-            name="first-name"
-            placeholder="FIRST NAME"
-            minlength="2"
-            maxlength="20"
-            required
-          />
-        </div>
-        </div class="input-wrapper">
-          <div>
-          <label for="last-name">LAST NAME</label>
-          <input
-            id="last-name"
-            type="text"
-            name="last-name"
-            placeholder="LAST NAME"
-            maxlength="20"
-            required
-          />
-        </div>
+            <label for="first-name">FIRST NAME</label>
+            <input
+              id="first-name"
+              type="text"
+              name="first-name"
+              placeholder="FIRST NAME"
+              minlength="2"
+              maxlength="20"
+              required
+            />
+          </div>
           <div class="input-wrapper">
-          <label for="email">EMAIL</label>
-          <input
-            id="email"
-            type="email"
-            name="email"
-            placeholder="Email"
-            pattern=".+@example\.com"
-            required
-          />
-        </div>
+            <label for="last-name">LAST NAME</label>
+            <input
+              id="last-name"
+              type="text"
+              name="last-name"
+              placeholder="LAST NAME"
+              maxlength="20"
+              required
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="email">EMAIL</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Email"
+              pattern=".+@example\.com"
+              required
+            />
+          </div>
           <!-- Pattern -->
           <!-- 3 numbers from 0-9 -->
           <!-- 3 numbers from 0-9 -->
           <!-- 4 numbers from 0-9 -->
-           <div class="input-wrapper">
-          <label for="phone">PHONE NUMBER</label>
-          <input
-            id="phone"
-            type="tel"
-            name="phone"
-            placeholder="PHONE NUMBER"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-            required
-          />
-        </div>
+          <div class="input-wrapper">
+            <label for="phone">PHONE NUMBER</label>
+            <input
+              id="phone"
+              type="tel"
+              name="phone"
+              placeholder="PHONE NUMBER"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              required
+            />
+          </div>
           <!-- Pattern -->
           <!-- At least one lowercase letter a-z (?=.*[a-z]) -->
           <!--At least one uppercase letter A-Z (?=.*[A-Z])-->
           <!-- At least one numeric value 0-9 (?=.*[0-9]) -->
           <!-- At least on special char (?=.*[!@#$%^&*_=+-]) -->
           <!-- min lenght 8 chars max 16 chars -->
-           <div class="input-wrapper">
-          <label for="pass">PASSWORD</label>
-          <input
-            id="pass"
-            type="password"
-            name="pass"
-            minlength="8"
-            maxlength="16"
-            placeholder="PASSWORD"
-            pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]){8,16}"
-            required
-          />
-        </div>
           <div class="input-wrapper">
-          <label for="confirm-pass">CONFIRM PASSWORD</label>
-          <input
-            id="confirm-pass"
-            type="password"
-            name="confirm-pass"
-            minlength="8"
-            maxlength="16"
-            placeholder="CONFIRM PASSWORD"
-            pattern="(?=.*[a-z])(?=.*[A-Z])(?=,*[0-9](?=.*[!@#$%^&*_=+=]).{8,16})"
-            required
-          />
-        </div>
+            <label for="pass">PASSWORD</label>
+            <input
+              id="pass"
+              type="password"
+              name="pass"
+              minlength="8"
+              maxlength="16"
+              placeholder="PASSWORD"
+              pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]){8,16}"
+              required
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="confirm-pass">CONFIRM PASSWORD</label>
+            <input
+              id="confirm-pass"
+              type="password"
+              name="confirm-pass"
+              minlength="8"
+              maxlength="16"
+              placeholder="CONFIRM PASSWORD"
+              pattern="(?=.*[a-z])(?=.*[A-Z])(?=,*[0-9](?=.*[!@#$%^&*_=+=]).{8,16})"
+              required
+            />
+          </div>
         </fieldset>
         <button type="submit">Create Account</button>
       </form>
